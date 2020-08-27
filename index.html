@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="train.css">
+    <title>Book Your Train</title>
+</head>
+<body>
+    <!--for the side bar-->
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Train Routes</a>
+        <a href="#">Train Companies</a>
+        <a href="#">Hotel Deals</a>
+        <a href="#">Covid-19 Precautions</a>
+    </div>
+
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
+    </div>
+
+   
+
+    <form action="train2.html" class="torm">
+      <div class="from">
+        <label>Name<br>
+        <input type="text" id="from" name="from">
+        </label>
+        <br>
+        <label>Email<br>
+        <input type="text" id="to" name="to">
+        </label>
+      </div>
+
+      <div class="two">
+        <select required>
+            <option value="" disabled selected hidden>👤 Number of Travelers</option>
+            <option class="one">👤 One</option>
+            <option class="one">👥 Two</option>
+        </select>
+      </div>
+       
+      <div class="pick">
+        <h4>Children</h4>
+        <label class="children">Yes
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          <label class="special">No
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+          </label>
+        </div>
+
+        <div class="pic">
+          <h4>Special Needs</h4>
+        <label class="children">Yes
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          <label class="special">No
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+          </label>
+        </div>
+      <button class="find">
+        <span>FIND YOUR TRAIN</span>
+        <svg 
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        >
+        
+        </svg>
+    
+      </button>
+
+      </form>
+
+
+<!--for the footer wavy-->
+<section>
+    <div class="wave wave1"></div>
+    <div class="wave wave2"></div>
+    <div class="wave wave3"></div>
+    <div class="wave wave4"></div>
+</section>
+
+
+
+    <script src="train.js"></script>
+</body>
+</html>

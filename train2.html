@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="train2.css">
+    <title>Book Your Train</title>
+</head>
+<body>
+
+    <form action="train3.html" class="torm">
+        <div class="elite">
+        <label class="container standard">Standard
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container premium">Premium
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+          </label>
+        </div>
+
+        <div class="from">
+            <label class="fro"> From <br>
+            <input type="text" id="from" name="from" placeholder= "📍">
+            </label>
+            <br>
+            <label class="to"> To <br>
+            <input type="text" id="to" name="to" placeholder= "📍">
+            </label>
+          </div>
+
+        <div class="how">
+          <label class="container oneway">Oneway
+            <input type="radio" checked="checked" name="radio1">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container roundtrip">Roundtrip
+            <input type="radio" name="radio1">
+            <span class="checkmark"></span>
+          </label>
+        </div> 
+
+      <div class="day">
+        <label for="start">Start date:</label>
+
+        <input type="date" id="start" name="trip-start"
+                        value="2020-08-28"
+                        min="2020-08-29" max="2021-09-29">
+
+      </div>
+      <button class="find">
+        <span>NEXT</span>
+        <svg 
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        >
+        
+        </svg>
+    
+      </button>
+
+      </form>
+
+
+<!--for the footer wavy-->
+<section>
+    <div class="wave wave1"></div>
+    <div class="wave wave2"></div>
+    <div class="wave wave3"></div>
+    <div class="wave wave4"></div>
+</section>
+
+
+
+    <script src="train.js"></script>
+</body>
+</html>
