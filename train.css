@@ -75,6 +75,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin-bottom: 20px;
   }
   
   /* The dropdown container */
@@ -137,7 +138,9 @@ body {
     opacity: 0.7;
     border:5px solid #000E14;
     border-radius: 70px 40px;
-    font-size: 25px;
+    font-size: 18px;
+    margin: 20px;
+    padding: 20px;
   }
 
 * {
@@ -171,18 +174,18 @@ body {
   /* for the checkboxes*/
   .standard {
       margin-top: 50px;
-      margin-left: 400px;
+      margin-left: 20px;
       margin-right: 150px;
   }
 
   .oneway {
-      margin-left: 400px;
+      margin-left: 20px;
       margin-right: 150px;
   }
 
   /* for the from and to */
   .from {
-      margin-left: 400px;
+      margin-left:20px;
       margin-top: 18px;
       height: 70px;
   }
@@ -205,21 +208,21 @@ option{
 }
 
 .two {
-    margin-left: 400px;
+    margin-left:20px;
       margin-top: 18px;
       height: 70px;
 }
 
 /* for the date */
 .day {
-    margin-left: 370px;
+    margin-left:10px;
       margin-top: 18px;
       height: 40px;
 }
 
 /* for find train button */
 .find {
-    margin-left: 400px;
+    margin-left:20px;
       margin-top: 18px;
       height: 50px;
     margin-top: 50px;
